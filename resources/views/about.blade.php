@@ -10,10 +10,10 @@
 <body>
     <div class="anime">
         <h1>Anime</h1>
-        <p>Title: {{ $listOfData['title']}}</p>
-        <p>Genre: {{ $listOfData['genre']}}</p>
-        <p>Number of Seasons: {{ $listOfData['no. of seasons']}}</p>
-        <p>Number of Episodes: {{ $listOfData['no. of episodes']}}</p>
+        <p>Title: {{ $listData['title']}}</p>
+        <p>Genre: {{ $listData['genre']}}</p>
+        <p>Number of Seasons: {{ $listData['seasons']}}</p>
+        <p>Number of Episodes: {{ $listData['episodes']}}</p>
     </div>
 
 </body>
