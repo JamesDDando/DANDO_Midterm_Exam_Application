@@ -13,6 +13,6 @@ class ProductController extends Controller
             'seasons' => 5,
             'episodes' => 24
         );
-        return view('about', ['about' => $listData]);
+        return view('about', ['listData' => $listData]);
     }
 }
